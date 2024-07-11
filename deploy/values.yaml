@@ -1,8 +1,8 @@
 replicaCount: 10
 image:
-  repository: danielrodriguess/nlw.journey.api
+  repository: reisreissel/nlw-journey
   pullPolicy: IfNotPresent
-  tag: a6b4490
+  tag: 5ece430
   containerPort: 8080
 imagePullSecrets: []
 nameOverride: ''
